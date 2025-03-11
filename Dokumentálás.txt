@@ -1,0 +1,56 @@
+A,B: git init
+A,B: git remote add origin url
+A: txt módosítás
+A: git add .
+A: git commit -m "első"
+A: git push origin master
+B: git pull origin master
+B: txt mód.
+B: git add .
+B: git commit -m "B2"
+B: git push origin master
+A: git pull origin master
+A: git branch f1
+A: git checkout f1
+A: git status
+A: txt mód.
+A: git add .
+A: git commit -m "harmadik"
+A: git push origin f1
+B: git fetch
+B: git branch f1
+B: git checkout f1
+B: git pull origin f1
+A: txt mód.
+A: git add .
+A: git commit -m "negyedik"
+A: git push origin master
+B: git checkout master
+B: git fetch
+B: git pull origin master
+B: git checkout f1
+B: txt mód.
+B: git add .
+B: git commit -m "B5"
+B: git push origin f1
+A: git checkout f1
+A: git fetch
+A: git pull origin f1
+B: git checkout master
+B: txt mód.
+B: git add .
+B: git commit -m "B6"
+B: git push origin master
+A: git checkout master
+A: git fetch
+A: git pull origin master
+A: git checkout master
+A: git merge f1
+A: konfliktus megoldása
+A: git checkout master
+A: git add .
+A: git commit -m "hetedik"
+A: git push origin master
+B: git fetch
+B: git pull origin master
+
