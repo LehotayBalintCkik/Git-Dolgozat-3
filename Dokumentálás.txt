@@ -53,4 +53,8 @@ A: git commit -m "hetedik"
 A: git push origin master
 B: git fetch
 B: git pull origin master
+B: txt mód.
+B: git add .
+B: git commit -m "B8"
+B: git push origin master
 
